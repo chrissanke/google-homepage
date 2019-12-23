@@ -1,0 +1,100 @@
+body {
+    font-family: arial, sans-serif;
+}
+#header {
+    text-align: right;
+    margin: 15px 15px;
+    padding: 0 15px 0 15px;
+    word-spacing: 10px;
+  
+}
+.profile {
+    border-radius: 50%;
+}
+a {
+    display: inline;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 24px;
+}
+a:hover {
+    text-decoration: underline;
+}
+#body {
+    padding-top: 47px;
+    text-align: center;
+}
+#searchbar {
+    padding-top: 20px;
+}
+#buttons {
+    padding-top: 30px;
+    padding-right: 10px;
+}
+input[type="text"] {
+    width: 30%;
+    background: url("../images/searchicon.png") no-repeat 10px center, url("../images/mic.png") no-repeat right center,  url("../images/keyboard.png") no-repeat right +30px center;
+    line-height: 34px;
+    padding-left: 40px;
+    padding-top: 5px;
+    vertical-align: center;
+    border: 1px solid rgb(216, 216, 216);
+    padding-bottom: 5px;
+    padding-right: 60px;
+    border-radius: 40px;
+    display: inline;
+}
+input[type="text"]:hover {
+    box-shadow: 1px 1px 1px 1px rgb(211, 211, 211);
+}
+input[type="button"] {
+    border: none;
+    font-size: 14px;
+    padding: 12px 25px;
+    background-color: rgb(242, 242, 242);
+    color: rgb(95, 99, 104);
+    border-radius: 4px;
+}
+input[type="button"]:hover {
+    border: 0.5px solid rgb(196, 194, 194);
+}
+#footer-one {
+    background-color: rgb(242, 242, 242);
+    padding-left: 27px;
+    color: rgba(0, 0, 0, .54);
+    display: flex;
+    text-align: left;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    border-top-color: rgb(228, 228, 228);
+    border-top-style: solid;
+    border-top-width: 1px;
+    bottom: 41px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+}
+#footer-two {
+    background-color: rgb(242, 242, 242);
+    word-spacing: 20px;
+    padding-left: 27px;
+    color: rgba(0, 0, 0, .54);
+    display: inline-block;
+    text-align: left;
+    line-height: 40px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    border-top-color: rgb(228, 228, 228);
+    border-top-style: solid;
+    border-top-width: 1px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    white-space: nowrap;
+    position: absolute;
+}
+#right {
+    padding-left: 72%;
+}
